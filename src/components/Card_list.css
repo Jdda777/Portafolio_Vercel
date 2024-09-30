@@ -1,5 +1,5 @@
 .card-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1rem; /* Espacio entre las tarjetas */
+    display: flex;
+    columns: 3;
+    gap: 1rem; 
   }

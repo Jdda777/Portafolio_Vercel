@@ -2,7 +2,7 @@ import React from 'react';
 import './Card_list.css';  // Archivo opcional para estilos
 import Card from './Card';
 
-const Card_list = () => {
+const Card_list = () => { return(
     <div className="card-list">
   <Card 
     title="Card Title 1"
@@ -19,5 +19,7 @@ const Card_list = () => {
     content="This is a description for the third card."
     imageUrl="https://via.placeholder.com/150"
   />
-</div>
+</div>)
 }
+
+export default Card_list;
