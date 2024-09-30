@@ -1,10 +1,10 @@
 :root {
     --border-color: #ccc;
-    --border-radius: 0.625rem; /* 10px */
-    --shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1); /* 4px 8px */
-    --max-width: 18.75rem; /* 300px */
-    --margin: 1.25rem; /* 20px */
-    --padding: 0.9375rem; /* 15px */
+    --border-radius: 0.625rem;
+    --shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1); 
+    --max-width: 18.75rem; 
+    --margin: 1.25rem; 
+    --padding: 1.25rem;
     --title-font-size: 1.5rem;
     --content-font-size: 1rem;
     --content-color: #555;

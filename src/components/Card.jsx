@@ -1,5 +1,5 @@
-import React from 'react';
-import './Card.css';  // Archivo opcional para estilos
+import React from "react";
+import "./Card.css"; // Archivo opcional para estilos
 
 const Card = ({ title, content, imageUrl }) => {
   return (

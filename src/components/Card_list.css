@@ -1,5 +1,5 @@
 .card-list {
     display: flex;
     columns: 3;
-    gap: 1rem; 
+    gap: 2rem; 
   }
