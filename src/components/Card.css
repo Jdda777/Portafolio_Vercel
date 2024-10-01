@@ -10,7 +10,7 @@
     --content-color: #555;
     --scale-hover: 1.05;
   }
-  
+
   .card {
     border: 1px solid var(--border-color);
     border-radius: var(--border-radius);

@@ -1,5 +1,19 @@
 .card-list {
-    display: flex;
-    columns: 3;
-    gap: 2rem; 
+  display: flex;
+  flex-wrap: wrap; /* Permite que las tarjetas se ajusten en filas */
+  justify-content: center;
+  gap: 2rem; /* Espacio entre las tarjetas */
+}
+
+@media (max-width: 480px) {
+  .card-list {
+    flex-direction: column; /* Apila las tarjetas en una columna en pantallas pequeñas */
+    align-items: center; /* Centra las tarjetas */
+    gap: 1rem; /* Ajusta el espacio entre las tarjetas verticalmente */
   }
+
+  .card {
+    max-width: 100%; /* Hace que las tarjetas ocupen todo el ancho disponible en pantallas pequeñas */
+    margin: 1rem 0; /* Añade un margen entre las tarjetas */
+  }
+}
