@@ -9,8 +9,13 @@ ul {
     text-align: left; 
     padding-left: 0; 
     list-style-position: inside; 
+    padding-bottom: 40px;
 }
 li {
     margin: 5px 0;
     line-height: 2;
+}
+
+.titulo{
+    font-size: 40px;
 }

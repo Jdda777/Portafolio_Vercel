@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <h1 className="mainTitle">Juan David Mendoza Gaspar</h1>
-      <h1 className="mainTitle">Jdda</h1>
+      <h1 className="subTitle">Estudiante Universitario</h1>
       <div className="skills-block">
         <Skills
           color={"#5377A6"}
@@ -25,6 +25,7 @@ function App() {
           skill4={"Modelado 3D"}
         />
       </div>
+      <h1 className="subTitle">Portafolio</h1>
       <Card_list />
     </>
   );

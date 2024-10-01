@@ -7,9 +7,13 @@
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-h1{
-  font-size: larger;
+
+.subTitle {
+  font-size: 30px;
 }
+.mainTitle {
+  font-size: 45px !important;
+} 
 
 .skills-block {
   display: flex;

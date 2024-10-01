@@ -6,22 +6,24 @@ const Card_list = () => {
   return (
     <div className="card-list">
       <Card
-        title="Card Title 1"
-        content="This is a description for the first card."
+        linkUrl={"https://github.com/Jdda777/Responsive.git"}
+        title="Página Responsive"
+        content="Creación de Página Adaptiva usando HTML Y CSS"
         imageUrl="https://via.placeholder.com/150"
       />
       <Card
-        title="Card Title 2"
-        content="This is a description for the second card."
+        linkUrl={"https://github.com/edwinmgallego/clase-practica-css.git"}
+        title="Plataforma de ingreso"
+        content="Replica de la plataforma de ingreso de la UAO"
         imageUrl="https://via.placeholder.com/150"
       />
       <Card
-        title="Card Title 3"
-        content="This is a description for the third card."
+        linkUrl={"https://stackblitz.com/edit/stackblitz-starters-8regsb?file=page2.html"}
+        title="Portafolio en StackBlitz"
+        content="Boceto de Portafolio desplegado en StackBlitz"
         imageUrl="https://via.placeholder.com/150"
       />
     </div>
-    
   );
 };
 
