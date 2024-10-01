@@ -34,6 +34,12 @@ const Card_list = () => {
           content="La aplicación de logica en funcion flecha esta en la rama main"
           imageUrl="https://via.placeholder.com/150"
         />
+        <Card
+          linkUrl={"https://github.com/Jdda777/componentes.git"}
+          title="Card"
+          content="Implementacion de componentes usando el Framework React"
+          imageUrl="https://via.placeholder.com/150"
+        />
       </div>
     </>
   );
