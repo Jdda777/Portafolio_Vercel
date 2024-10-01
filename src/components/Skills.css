@@ -14,8 +14,10 @@ ul {
 li {
     margin: 5px 0;
     line-height: 2;
+    color: azure;
 }
 
 .titulo{
     font-size: 40px;
+    color:azure;
 }

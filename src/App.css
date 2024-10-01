@@ -10,9 +10,11 @@
 
 .subTitle {
   font-size: 30px;
+  color: azure;
 }
 .mainTitle {
   font-size: 45px !important;
+  color: azure;
 } 
 
 .skills-block {
