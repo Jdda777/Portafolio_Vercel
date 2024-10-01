@@ -40,6 +40,12 @@ const Card_list = () => {
           content="Implementacion de componentes usando el Framework React"
           imageUrl="https://via.placeholder.com/150"
         />
+        <Card
+          linkUrl={"https://github.com/Jdda777/Contador.git"}
+          title="Contador"
+          content="IExperimentación con React usando UseState"
+          imageUrl="https://via.placeholder.com/150"
+        />
       </div>
     </>
   );
